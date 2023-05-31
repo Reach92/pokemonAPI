@@ -38,7 +38,7 @@ function PokemonViewer() {
       <hr /><button onClick={handleNextPokemon}>Siguiente</button>
       <hr />
     </div>
-  );
+  )
 }
 
 export default PokemonViewer;
