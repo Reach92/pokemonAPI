@@ -35,7 +35,7 @@ function PokemonViewer() {
       <hr /><button onClick={handlePrevPokemon}>Anterior</button>
       <hr /><img width="200" height="200" src={pokemon.sprites.front_default} alt={pokemon.name}/>
       <h3>{pokemon.name}</h3>
-      <hr /><button onClick={handleNextPokemon}>Siguiente Pokemon</button>
+      <hr /><button onClick={handleNextPokemon}>Siguiente</button>
       <hr />
     </div>
   );
